@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # farsr
 
 <!-- badges: start -->
+https://app.travis-ci.com/hugo7gpad/farsr.svg?branch=main
 [Build Status](https://app.travis-ci.com/hugo7gpad/farsr.svg?branch=main)](https://app.travis-ci.com/hugo7gpad/farsr)
 <!-- badges: end -->
 

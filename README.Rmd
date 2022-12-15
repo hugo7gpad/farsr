@@ -16,8 +16,7 @@ knitr::opts_chunk$set(
 # farsr
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.com/hugo7gpad/farsr.svg?branch=main)](https://travis-ci.com/hugo7gpad/farsr)
-[![R-CMD-check](https://github.com/hugo7gpad/farsr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hugo7gpad/farsr/actions/workflows/R-CMD-check.yaml)
+[Build Status](https://app.travis-ci.com/hugo7gpad/farsr.svg?branch=main)](https://app.travis-ci.com/hugo7gpad/farsr)
 <!-- badges: end -->
 
 The goal of farsrr is to offer tools to report and analyse accidents data over years.The farsrr package provides functions to read, summarize and visualize data

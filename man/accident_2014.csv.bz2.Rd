@@ -29,8 +29,6 @@ accident_2014.csv.bz2
 \examples{
 \dontrun{
 accident_2014.csv.bz2
-
-"accident_2014.csv.bz2"
 }
 }
 \keyword{datasets}

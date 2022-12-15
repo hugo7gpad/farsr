@@ -17,7 +17,5 @@
 #' @examples
 #' \dontrun{
 #' accident_2013.csv.bz2
-#'
-#' "accident_2013.csv.bz2"
 #' }
 "accident_2013.csv.bz2"

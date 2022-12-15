@@ -27,7 +27,7 @@ devtools::install_github("hugo7gpad/farsr", build_vignettes = TRUE)
 ## Example
 
 This is a basic example which shows you how to read into R the accidents
-reports data of the year 2015:
+reports data of the year 2013:
 
 ``` r
 library(farsr)

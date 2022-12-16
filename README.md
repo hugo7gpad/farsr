@@ -4,9 +4,6 @@
 # farsr
 
 <!-- badges: start -->
-[Build
-Status](https://app.travis-ci.com/hugo7gpad/farsr.svg?branch=main)\](<https://app.travis-ci.com/hugo7gpad/farsr>)
-\>\>\>\>\>\>\> 8dc4602c7495a207d31cffd76f322d2b4277f9db
 [![R-CMD-check](https://github.com/hugo7gpad/farsr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hugo7gpad/farsr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 

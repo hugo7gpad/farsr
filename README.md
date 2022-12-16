@@ -4,10 +4,6 @@
 # farsr
 
 <!-- badges: start -->
-
-\<\<\<\<\<\<\< HEAD [![Travis build
-status](https://travis-ci.com/hugo7gpad/farsr.svg?branch=main)](https://travis-ci.com/hugo7gpad/farsr)
-======= <https://app.travis-ci.com/hugo7gpad/farsr.svg?branch=main>
 [Build
 Status](https://app.travis-ci.com/hugo7gpad/farsr.svg?branch=main)\](<https://app.travis-ci.com/hugo7gpad/farsr>)
 \>\>\>\>\>\>\> 8dc4602c7495a207d31cffd76f322d2b4277f9db

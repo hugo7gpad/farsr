@@ -20,7 +20,6 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/hugo7gpad/farsr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hugo7gpad/farsr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-
 The goal of farsr is to offer tools to report and analyse accidents data over years.The farsr package provides functions to read, summarize and visualize data on accidents recorded by time, date, geographical information such as: city,
 state, longitude, latitude... and more.
 
@@ -34,22 +33,18 @@ You can install the development version of farsr from [GitHub](https://github.co
 devtools::install_github("hugo7gpad/farsr")
 ```
 
-You can also download the example data included using:
+You can also prepare the example CSV data included using:
 
 ```{r download data}
 library(farsr)
 make_filename(2013)
 make_filename(2014)
 make_filename(2015)
-accident_2013_csv <- suppressMessages(readr::read_csv(system.file("extdata", 
-                                                  "accident_2013.csv.bz2", package = "farsr")))
-readr::write_csv(accident_2013_csv, "accident_2013.csv.bz2")
-accident_2014_csv <- suppressMessages(readr::read_csv(system.file("extdata", 
-                                                  "accident_2014.csv.bz2", package = "farsr")))
-readr::write_csv(accident_2014_csv, "accident_2014.csv.bz2")
-accident_2015_csv <- suppressMessages(readr::read_csv(system.file("extdata", 
-                                                  "accident_2015.csv.bz2", package = "farsr")))
-readr::write_csv(accident_2015_csv, "accident_2015.csv.bz2")
+readr::write_csv(accident_2013.csv.bz2, "accident_2013.csv.bz2")
+
+readr::write_csv(accident_2014.csv.bz2, "accident_2014.csv.bz2")
+
+readr::write_csv(accident_2015.csv.bz2, "accident_2015.csv.bz2")
 
 ```
 
@@ -85,3 +80,4 @@ in the state number 33 (New York) in the year 2014
 ```{r map_accidents_2014_state33_NY, echo = FALSE}
 fars_map_state(33, 2014)
 ```
+

@@ -25,7 +25,7 @@ You can install the development version of farsr from
 devtools::install_github("hugo7gpad/farsr")
 ```
 
-You can also download the example data included using:
+You can also prepare the example CSV data included using:
 
 ``` r
 library(farsr)
@@ -35,15 +35,11 @@ make_filename(2014)
 #> [1] "accident_2014.csv.bz2"
 make_filename(2015)
 #> [1] "accident_2015.csv.bz2"
-accident_2013_csv <- suppressMessages(readr::read_csv(system.file("extdata", 
-                                                  "accident_2013.csv.bz2", package = "farsr")))
-readr::write_csv(accident_2013_csv, "accident_2013.csv.bz2")
-accident_2014_csv <- suppressMessages(readr::read_csv(system.file("extdata", 
-                                                  "accident_2014.csv.bz2", package = "farsr")))
-readr::write_csv(accident_2014_csv, "accident_2014.csv.bz2")
-accident_2015_csv <- suppressMessages(readr::read_csv(system.file("extdata", 
-                                                  "accident_2015.csv.bz2", package = "farsr")))
-readr::write_csv(accident_2015_csv, "accident_2015.csv.bz2")
+readr::write_csv(accident_2013.csv.bz2, "accident_2013.csv.bz2")
+
+readr::write_csv(accident_2014.csv.bz2, "accident_2014.csv.bz2")
+
+readr::write_csv(accident_2015.csv.bz2, "accident_2015.csv.bz2")
 ```
 
 ## Example

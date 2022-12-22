@@ -19,6 +19,7 @@ library(farsr)
 ```
 
 
+
 The goal of farsr is to offer tools to report and analyse accidents
 reports over years.The farsr package provides functions to read,
 summarize and visualize data on accidents recorded by time, date,
@@ -29,22 +30,17 @@ You can download and install the development version of farsr using:
 
   devtools::install_github("hugo7gpad/farsr", build_vignettes = TRUE)
 
-
-You can also download the example data included using in the following way:
+You can prepare the example csv data included using in the following way:
 
 ```{r download data}
 make_filename(2013)
 make_filename(2014)
 make_filename(2015)
-accident_2013_csv <- suppressMessages(readr::read_csv(system.file("extdata", 
-                                                  "accident_2013.csv.bz2", package = "farsr")))
-readr::write_csv(accident_2013_csv, "accident_2013.csv.bz2")
-accident_2014_csv <- suppressMessages(readr::read_csv(system.file("extdata", 
-                                                  "accident_2014.csv.bz2", package = "farsr")))
-readr::write_csv(accident_2014_csv, "accident_2014.csv.bz2")
-accident_2015_csv <- suppressMessages(readr::read_csv(system.file("extdata", 
-                                                  "accident_2015.csv.bz2", package = "farsr")))
-readr::write_csv(accident_2015_csv, "accident_2015.csv.bz2")
+readr::write_csv(accident_2013.csv.bz2, "accident_2013.csv.bz2")
+
+readr::write_csv(accident_2014.csv.bz2, "accident_2014.csv.bz2")
+
+readr::write_csv(accident_2015.csv.bz2, "accident_2015.csv.bz2")
 ```
 
 
@@ -137,5 +133,6 @@ fars_read_years(yrs3)
 
 # Number of accidents in every month of each year
 fars_summarize_years(yrs3)
+
 
 
